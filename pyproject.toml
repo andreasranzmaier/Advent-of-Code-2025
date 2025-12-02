@@ -1,0 +1,31 @@
+[project]
+name = "myproject"
+version = "0.1.0"
+description = "My coursework project"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "mlxtend",
+  "plotly",
+  "nbformat",
+  "black",
+  "pytest",
+  "ipykernel",
+  "seaborn>=0.13.2",
+  "torch",
+  "torchmetrics",
+  "pyeclat>=1.0.2",
+  "missingno>=0.5.2",
+  "apyori>=1.1.2",
+  "kaleido>=1.2.0",
+  "pysr>=1.5.9",
+  "gplearn>=0.4.2",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
